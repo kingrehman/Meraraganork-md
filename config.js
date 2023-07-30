@@ -65,7 +65,7 @@ module.exports = {
     ANTILINK_WARN: process.env.ANTILINK_WARN || '',
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
-        API_KEY: process.env.HEROKU_API_KEY || '',
+        API_KEY: process.env.HEROKU_API_KEY || '6546ba6c-4677-4cb2-af85-815776d28260',
         APP_NAME: process.env.HEROKU_APP_NAME || 'ragnorkreh'
     },
     DATABASE_URL: DATABASE_URL,
